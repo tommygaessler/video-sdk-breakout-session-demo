@@ -1,0 +1,23 @@
+#speaker-self-view-canvas, #gallery-view-canvas, #screenshare-canvas, #speaker-view-canvas, #self-view-video, #self-view-canvas, #chrome-receive-screenshare-canvas {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+}
+
+.self-video-off {
+  background-color: black;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.self-video-off h3 {
+  color: white;
+}
